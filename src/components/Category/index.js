@@ -4,7 +4,7 @@ import styles from "./Category.module.css";
 export const categories = [
     "Languages",
     "Ficção Científica",
-    "Astronomia e Geografia"
+    "Astronomia"
   ]
 
 export function filterCategory(id) {
