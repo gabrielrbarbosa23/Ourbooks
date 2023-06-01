@@ -3,3 +3,52 @@
     color: #fff;
     padding: 70px 30px 20px;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.icon {
+    font-size: 2em;
+    color: rgb(65, 26, 26);
+}
+
+.icon:hover {
+    color: rgba(0, 0, 0, .25);
+    transition: 0.2s;
+}
+
+.port {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(65, 26, 26);
+}
+
+.port:hover {
+    color: rgba(0, 0, 0, .25);
+    transition: 0.2s;
+}
+
+.footer_by {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: rgb(65, 26, 26);
+}
+
+@media (max-width: 700px) {
+    .footer {
+        width: 100%;
+        color: #fff;
+        padding: 70px 30px 20px;
+    }
+}

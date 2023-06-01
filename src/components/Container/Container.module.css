@@ -1,9 +1,7 @@
 .container {
     width: 100%;
     min-height: 100vh; /* aula 14 */
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    background-repeat: no-repeat; 
     color: #fff;
     padding-bottom: 1.5rem; /* aula 14 */
     text-align: center;

@@ -33,24 +33,25 @@
 
 .header a:hover {
     color: rgb(65, 26, 26);
+    font-size: 1.3rem;
 }
 
-/* responsividade extra 01 */
-@media (max-width: 480px) {
+@media (max-width: 700px) {
     .header span {
         font-size: 1.5rem;
     }
     .header a {
-        font-size: 0.95rem;
-        padding-inline: 0.5rem;
+        font-size: 1.1rem;
+        padding-inline: 0.6rem;
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 460px) {
     .header span {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .header a {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
+        padding-inline: 0.6rem;
     }
 }

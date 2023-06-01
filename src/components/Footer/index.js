@@ -6,28 +6,23 @@ import { BsLinkedin } from 'react-icons/bs';
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <div className="social">
-                <a href="https://www.linkedin.com/in/gabriel-rabello-barbosa-204aa7142/" target="_blank" className="social-link">
-                     <BsLinkedin />
+            <div className={styles.social}>
+                <a href="https://www.linkedin.com/in/gabriel-rabello-barbosa-204aa7142/" target="_blank">
+                     <BsLinkedin className={styles.icon} />
                 </a>
 
-                <a href="https://www.instagram.com/gabrielrbarbosa/" target="_blank" className="social-link">
-                    <AiOutlineInstagram />
+                <a href="https://www.instagram.com/gabrielrbarbosa/" target="_blank">
+                    <AiOutlineInstagram className={styles.icon} />
                 </a>
 
-                <a href="https://github.com/gabrielrbarbosa23" target="_blank" class="social-link">
-                    <AiOutlineGithub />
+                <a href="https://github.com/gabrielrbarbosa23" target="_blank">
+                    <AiOutlineGithub className={styles.icon} />
                 </a>
+            </div> 
 
-                <a href="https://gabrielrbarbosa23.github.io/gabrielportfolio/#" target="_blank" className="portfolio">Portfolio</a>
-            </div>        
-                    
-                    <div className="footer_text">
-                        <h1 className="footer__title">Our Books</h1>
-                        <span className="footer__subtitle">Personal website to read</span>
-                    </div>
+            <a href="https://gabrielrbarbosa23.github.io/gabrielportfolio/#" target="_blank" className={styles.port}>Portfolio</a>       
 
-            <p className="footer-by">&#169; Gabriel R barbosa. All right reserved</p>
+            <p className={styles.footer_by}>&#169; Gabriel R Barbosa. All right reserved</p>
         </footer>
     );
 }
