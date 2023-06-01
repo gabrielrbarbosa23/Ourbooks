@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 import iconFavorite from "./favorite.png";     /* branco */
 import iconUnfavorite from "./unfavorite.png"; /* vermelho */
@@ -19,7 +18,7 @@ function Card({ id, url, cover }) {
                 <img
                     src={icone}
                     alt="Ícone"
-                    onClick={() => addFavorite({id})}
+                    onClick={() => addFavorite({id,url,cover})}
                 />
             </figure>
         </section>

@@ -10,7 +10,6 @@ function Carousel({ children }) {
         centerMode: false,
         variableWidth: true,
         adaptiveHeight: true,
-        // slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {

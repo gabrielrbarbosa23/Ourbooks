@@ -12,23 +12,17 @@ body {
   background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/* formatacao da barra de rolagem */
 body::-webkit-scrollbar {
-  width: 13px;                /* largura da barra de rolagem */
+  width: 13px;             
   background-color: #222;
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(65, 26, 26);           /* cor de fundo da barra de rolagem */
+  background: rgb(65, 26, 26);          
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #F4EAD5;  /* cor do scroll (thumb) da barra de rolagem */
-  border-radius: 20px;          /* arredondar o scroll (thumb) */
-  border: 3px solid #222;     /* criar um espaco em volta do scroll */
+  background-color: #F4EAD5;  
+  border-radius: 20px;          
+  border: 3px solid #222;    
 }

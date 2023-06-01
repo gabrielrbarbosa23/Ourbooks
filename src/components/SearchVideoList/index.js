@@ -3,7 +3,6 @@ import VideoList from "../../components/VideoList";
 import { useEffect, useState } from "react";
 import Loader from "../Loader";
 
-// filtrando videos por categoria ou titulo
 function filterVideos(videos, searchText) {
     return videos.filter((video) => video.category.includes(searchText) || video.title.includes(searchText))
 }

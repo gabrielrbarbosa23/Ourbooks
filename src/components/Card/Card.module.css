@@ -1,6 +1,5 @@
 .card {
     display: flex;
-    /* aula 16 */
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
@@ -10,16 +9,15 @@
     width: 200px;
     border-radius: 8px;
     height: 280px;
+    transition: all 0.2s ease;
 }
 
-/* aula 14 */
 .capa:hover {
     transform: scale(0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px #222;
 }
 
-/* aula 16 */
 .icon {
     width: 30px;
     height: 30px;

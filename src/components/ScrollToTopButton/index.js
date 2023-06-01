@@ -11,9 +11,9 @@ function ScrollToTopButton() {
   };
 
   return (
-    <button onClick={handleClick}>
+    <div onClick={handleClick}>
       <BsArrowUpSquareFill className="icon"/>
-    </button>
+    </div>
   );
 }
 
