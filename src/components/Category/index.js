@@ -3,8 +3,8 @@ import styles from "./Category.module.css";
 
 export const categories = [
     "Languages",
-    "Ficção Científica",
-    "Astronomia"
+    "Science fiction",
+    "Astronomy"
   ]
 
 export function filterCategory(id) {

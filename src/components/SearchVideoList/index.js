@@ -22,7 +22,7 @@ function SearchVideoList({ videos }) {
         <section className={styles.container}>
             <input
                 type="search"
-                placeholder="Pesquisar..."
+                placeholder="Search"
                 value={searchText}
                 onChange={event => setSearchText(event.target.value)}
             />
